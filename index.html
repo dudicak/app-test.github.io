@@ -8,17 +8,5 @@
 </head>
 <body class="bg-gray-100">
     <div id="root"></div>
-    <script>
-        const Profile = () => {
-            if (!currentUser) return <Login />;
-            const [form, setForm] = useState({
-                name: currentUser.name,
-                company: currentUser.company,
-                phone: currentUser.phone || "",
-                optin: currentUser.optinEmail,
-            });
-            // ...
-        };
-    </script>
 </body>
 </html>
