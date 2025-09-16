@@ -7,4 +7,6 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  "homepage": "https://dudicak.github.io/app-test.github.io/",
+  "deploy": "gh-pages -d build"
 }
