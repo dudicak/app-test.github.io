@@ -1,0 +1,10 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Protótipo ilia events</title><link href="/styles/tailwind.css" rel="stylesheet"><script defer="defer" src="/app-test.github.io/static/js/main.a9caac06.js"></script><link href="/app-test.github.io/static/css/main.7aa09eb2.css" rel="stylesheet"></head><body class="bg-gray-100"><div id="root"></div><script>const Profile = () => {
+            if (!currentUser) return <Login />;
+            const [form, setForm] = useState({
+                name: currentUser.name,
+                company: currentUser.company,
+                phone: currentUser.phone || "",
+                optin: currentUser.optinEmail,
+            });
+            // ...
+        };</script></body></html>
